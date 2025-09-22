@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Piin</title>
+    <link rel="icon" type="image/png" href="icone.png" />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <script src="baixar.js" defer></script>
+</head>
+<body>
+    <div class="barra">
+        <button class="barra_opcao acao" id="reiniciar">Reiniciar</button>
+        <button class="barra_opcao acao" id="BotaoBaixarPNG">Exportar PNG</button>
+        <select class="barra_opcao acao opcoes" id="tipo_particula">
+            <option value="1">Areia</option>
+            <option value="2">Água</option>
+        </select>
+    </div>
+    <div class="conteudo">
+        <canvas id="quadro" width="64" height="64"></canvas>
+    </div>    
+</body>
